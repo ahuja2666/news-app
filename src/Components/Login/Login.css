@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.login-conatiner {
+  background-color: #7154bd;
+}
+.sb-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.login-ctn {
+  background-color: white;
+  border-radius: 7px;
+  padding: 2rem;
+}
+.heading-main {
+  color: #7154bd;
+}
+.para {
+  text-align: center;
+  color: gray;
+}
+#signInDiv {
+  margin: 2rem;
+}
+
+@media only screen and (max-width: 375px) {
+  .login-ctn {
+    padding: 0.1rem;
+  }
+  .heading-main {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
